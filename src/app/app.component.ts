@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DataBindingDemo';
+  username = 'Abiramasundhari'
+  customType='text';
+  customPlaceHolder='Enter your name';
+  dynamicName="Arthi";
+  greetUser()
+  {
+    alert('Welcome to Angular Data Binding')
+  }
 }
